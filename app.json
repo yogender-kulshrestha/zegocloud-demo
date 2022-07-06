@@ -1,0 +1,26 @@
+{
+  "name": "DynamicTokenServer",
+  "description": "Dynamic Token Server",
+  "keywords": [
+    "Zego",
+    "ZegoCloud",
+    "DynamicToken",
+    "video",
+    "voice",
+    "communications",
+    "recording",
+    "ARS"
+  ],
+  "website": "https://www.zegocloud.com/",
+  "repository": "https://github.com/ZEGOCLOUD/easy_example_call_server_nodejs.git",
+  "env": {
+    "ZEGO_APP_ID": {
+      "description": "ZEGOCLOUD App ID: Get your AppID from ZEGOCLOUD Console [My Projects] : https://console.zegocloud.com/project",
+      "required": true
+    },
+    "ZEGO_SERVER_SECRET": {
+      "description": "ZEGOCLOUD ServerSecret: Get your ServerSecret from ZEGOCLOUD Console [My Projects -> project's Edit -> Basic Configurations] : https://console.zegocloud.com/project",
+      "required": true
+    }
+  }
+}

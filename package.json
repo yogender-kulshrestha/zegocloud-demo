@@ -1,0 +1,28 @@
+{
+  "name": "DynamicTokenServer",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "express-generator": "^4.16.1",
+    "method-override": "^3.0.0",
+    "morgan": "^1.10.0",
+    "request": "^2.88.2"
+  },
+  "author": "ZEGOCLOUD",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ZEGOCLOUD/dynamic_token_server_nodejs.git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "node-hot-loader": "^1.21.7",
+    "webpack": "^5.72.1"
+  }
+}
