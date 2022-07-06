@@ -4,8 +4,8 @@ const request = require('request');
 const crypto = require('crypto');
 
 var PORT = process.env.PORT || 8080;
-var ZEGO_APP_ID = process.env.ZEGO_APP_ID || 1261642029;
-var ZEGO_SERVER_SECRET = process.env.ZEGO_SERVER_SECRET || 'bd8c889108b857a3f1dd9856e0b975b0';
+var ZEGO_APP_ID = process.env.ZEGO_APP_ID || 1918429445;
+var ZEGO_SERVER_SECRET = process.env.ZEGO_SERVER_SECRET || '643c0179a6217bde579ce2e267ca0cd3';
 
 
 if (!(ZEGO_APP_ID && ZEGO_SERVER_SECRET)) {
